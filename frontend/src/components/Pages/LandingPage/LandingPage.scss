@@ -16,9 +16,10 @@
       position: absolute;
       top: 42%;
       h1 {
-        font-size: 2em;
+        font-size: 96px;
         text-align: center;
-        font-family: c.$Sriracha;
+        font-family: c.$Vollkornreg;
+        color: c.$DarkBlue;
       }
       .TextSpan {
         display: flex;
@@ -36,4 +37,11 @@
   
   svg{
     display: block;
+  }
+
+  @media screen and (min-width: 700px) {
+    .semifooter {
+      display: flex;
+      justify-content: space-between;
+    }
   }

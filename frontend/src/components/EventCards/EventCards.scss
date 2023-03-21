@@ -1,13 +1,29 @@
 @use '../Styled/Theme.scss' as c;
 
+.container {
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 4em;
+}
+
 .sectionContainer{
-    margin: 2.5em;
-    background-color: c.$Cyan;
-    height: 20vh;
+    margin-bottom: 4em;
+    border: solid rgba(0, 0, 0, 0.107);
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+    height: 30vh;
+    width: 40%;
+    border-radius: 5px;
+    padding: 1em;
     span{
         display: flex;
         justify-content: space-between;
     }
+
+    .namedate {
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
     p{
         margin: 0.5em;
     }

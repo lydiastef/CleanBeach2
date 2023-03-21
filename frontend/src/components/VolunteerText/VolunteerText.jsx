@@ -13,6 +13,9 @@ const AboutUs = () => {
             We want to keep the beaches clean, and we will do that through this
             app, but also by putting up signs etc.
           </p>
+          <NavLink to="aboutus">
+            <button className="aboutbtn">ABOUT US</button>
+          </NavLink>
         </article>
       </div>
     </>
@@ -30,7 +33,7 @@ const VolunteerText = () => {
             help our beautiful planet!
           </p>
           <NavLink to="signup">
-            <button>VOLUNTEER NOW</button>
+            <button className="volunteerbtn">VOLUNTEER NOW</button>
           </NavLink>
         </article>
       </div>
