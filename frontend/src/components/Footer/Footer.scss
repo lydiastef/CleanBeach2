@@ -11,24 +11,21 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        p{
-            color: c.$White;
-            font-weight: 500;
-          
+        
         }
         .goals {
-           width: 200px;
+           width: 300px;
+           margin-top: 1em;
         
         }
         .icons{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            
-            svg{
-                fill: black;
-
-            }
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1em;
         }
-    }
+        a {
+            margin: 1em;
+        }
+    
 }
 

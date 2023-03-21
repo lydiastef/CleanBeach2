@@ -85,7 +85,7 @@ const Register = () => {
                 {submitError.msg}
               </div>
             : null }
-    <div className='container'>
+    <div className='containernow'>
         {/* REGISTER */}
         <div className='register'>
         <h1 className='h1ss'>Register</h1>
