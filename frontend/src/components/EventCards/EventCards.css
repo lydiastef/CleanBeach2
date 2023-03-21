@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+.sectionContainer {
+  margin: 2.5em;
+  background-color: #7FD4D1;
+  height: 20vh;
+}
+.sectionContainer span {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionContainer p {
+  margin: 0.5em;
+}/*# sourceMappingURL=EventCards.css.map */

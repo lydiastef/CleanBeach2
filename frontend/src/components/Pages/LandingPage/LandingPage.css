@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+.beachimg {
+  max-width: 100%;
+  opacity: 50%;
+  z-index: -1;
+  position: relative;
+}
+
+.WelcomeText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+.WelcomeText article {
+  position: absolute;
+  top: 42%;
+}
+.WelcomeText article h1 {
+  font-size: 2em;
+  text-align: center;
+  font-family: "Sriracha", "sans-serif";
+}
+.WelcomeText article .TextSpan {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5em;
+}
+.WelcomeText article .TextSpan p {
+  font-size: 1.5em;
+  width: 90%;
+  text-align: center;
+  font-weight: bold;
+}
+
+svg {
+  display: block;
+}/*# sourceMappingURL=LandingPage.css.map */

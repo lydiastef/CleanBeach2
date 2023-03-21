@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.mainFigure {
+  margin: 2em 0.7em;
+}
+.mainFigure img {
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-left: 2px solid;
+  max-width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+.mainFigure .mainFigcap {
+  border: 2px solid #000;
+  background-color: #7FD4D1;
+}
+.mainFigure .mainFigcap p {
+  margin: 0 0.5em;
+  font-size: 1em;
+  max-height: 14ch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.mainFigure .mainFigcap .hGroups {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 0.5em;
+}
+.mainFigure .mainFigcap .hGroups a {
+  text-decoration: none;
+  color: #000;
+}
+.mainFigure .mainFigcap .hGroups h3 {
+  font-size: 1em;
+  font-family: "Sriracha", "sans-serif";
+}
+.mainFigure .mainFigcap .hGroups h4 {
+  font-size: 1em;
+  text-align: right;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .mainFigure {
+    box-sizing: border-box;
+    width: calc(50% - 20px); /* 20px is the total horizontal margin */
+    margin: 10px; /* add margin to create gaps between the cards */
+  }
+}/*# sourceMappingURL=Cards.css.map */

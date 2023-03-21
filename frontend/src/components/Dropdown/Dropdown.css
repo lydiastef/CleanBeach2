@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+.dropdown {
+  width: 150px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin: 100px 0 30px 230px;
+  position: relative;
+  font-size: 1.3em;
+}
+
+.dropdown .dropdown-btn {
+  padding: 10px 20px;
+  background: #0F686E;
+  box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.06);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown .dropdown-content {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background: white;
+  box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  border-radius: 5px;
+}
+
+.dropdown .dropdown-content .dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 5px;
+}
+
+.dropdown .dropdown-content .dropdown-item:hover {
+  background: #f4f4f4;
+}/*# sourceMappingURL=Dropdown.css.map */

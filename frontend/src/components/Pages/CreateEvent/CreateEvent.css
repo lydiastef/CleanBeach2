@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+.fun {
+  width: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 25%;
+  filter: blur(3px);
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-container .text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  width: 80%;
+  /* styles for the specific inputs */
+}
+.image-container .text-container .h1 {
+  font-family: "Sriracha", "sans-serif";
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.image-container .text-container label {
+  display: block;
+  margin: 1em 0 0 0;
+  font-size: 1.2em;
+}
+.image-container .text-container .title-li {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+.image-container .text-container .category-li {
+  text-align: left;
+  width: 100%;
+  margin-top: 1.5em;
+}
+.image-container .text-container input, .image-container .text-container select {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1.5px solid #000;
+  border-radius: 5px;
+}
+.image-container .text-container input[name=name], .image-container .text-container input[name=description], .image-container .text-container select {
+  width: 100%;
+}
+.image-container .text-container .starts- {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.image-container .text-container .ends- {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.image-container .text-container .startswrap {
+  width: 100%;
+}
+.image-container .text-container .startswrap1 {
+  width: 100%;
+  text-align: right;
+}
+.image-container .text-container .endswrap {
+  width: 100%;
+}
+.image-container .text-container .endswrap1 {
+  width: 100%;
+  text-align: right;
+}
+.image-container .text-container input[name=date],
+.image-container .text-container input[name=ends], .image-container .text-container input[name=starttime], .image-container .text-container input[name=endtime] {
+  width: 100%;
+}
+.image-container .text-container .button {
+  background-color: #0F686E;
+  width: 100%;
+  height: 3.75em;
+  margin-top: 2em;
+  color: #FFF;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 700px) {
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container .text-container {
+    width: 60%;
+  }
+  .image-container .h1 {
+    margin-bottom: 1em !important;
+  }
+  .image-container .title-li {
+    margin-bottom: 3em !important;
+  }
+  .image-container .category-li {
+    margin-top: 3em !important;
+    margin-bottom: 3em;
+  }
+  .image-container .button {
+    width: 50% !important;
+    margin-left: auto;
+  }
+}
+/*
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+label[for="title"] {
+    display: block;
+    margin: 1em 0 0 0;
+    font-size: 1.2em;
+}
+
+input [name="title"] {
+    width: 80%;
+}
+
+label[for="starts"] {
+    display: block;
+
+}
+
+input[name="starts"], input[name="ends"] {
+    width: 35%;
+}
+
+
+.starts-ends {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border: solid black;
+}
+*//*# sourceMappingURL=CreateEvent.css.map */

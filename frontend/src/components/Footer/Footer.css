@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #0F686E;
+}
+footer .footercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .footercontainer p {
+  color: #FFF;
+  font-weight: 500;
+}
+footer .footercontainer .goals {
+  width: 200px;
+}
+footer .footercontainer .icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+footer .footercontainer .icons svg {
+  fill: black;
+}/*# sourceMappingURL=Footer.css.map */

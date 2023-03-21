@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+.form {
+  margin: 2em 0 0 2em;
+  padding: 2em 0 2em 4em;
+}
+.form .h1ss, .form .h1sss {
+  font-family: "Sriracha", "sans-serif";
+  text-align: center;
+  margin-bottom: 1.2em;
+}
+.form label {
+  display: block;
+  margin: 1em 0 0 0;
+  font-size: 1.2em;
+}
+.form input {
+  padding: 4px;
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1.5px solid #000;
+  width: 90%;
+  border-radius: 5px;
+}
+.form .register {
+  width: 90%;
+  margin-bottom: 4.3em;
+}
+.form .member {
+  margin-top: 3em;
+}
+.form a {
+  color: #008D94;
+  cursor: pointer;
+}
+.form .cleaning1 {
+  width: 90%;
+}
+.form button {
+  background-color: #0F686E;
+  border: none;
+  color: white;
+  padding: 1em 0;
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  margin-top: 1.7em;
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .form input {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+  .form .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .form .label {
+    font-size: 1.5em;
+  }
+  .form .cleaning1 {
+    width: 40%;
+    padding: 0 2em 0 2em;
+  }
+  .form .button {
+    width: 80%;
+  }
+}/*# sourceMappingURL=Register.css.map */
