@@ -101,7 +101,7 @@ const CreateEvent = () => {
       <img className="fun" src={Fun} alt="MyImage" />
 
       <div className="text-container">
-        <h1 className="h1">Create new event</h1>
+        <h1 className="h1">Create Event</h1>
         { !user
         ? <div style={{color: 'red', fontSize: '20px'}} className='ui message failure'>
                   To create a new event, you need to be logged in!
@@ -114,12 +114,31 @@ const CreateEvent = () => {
             : null
             }
             <div className="title-li">
-            <label htmlFor="name">Name</label>
-            <input name="name" type="text" placeholder="Name of event"  onChange={handleChange} />
+            <label htmlFor="title">Title</label>
+            <input name="title" type="text" placeholder="Insert title here"  onChange={handleChange} />
             </div>
 
-            <div className="starts-">
-              <div className="startswrap">
+            <div className="time1-">
+              <div className="dateandtime1">
+                <label className="starts" htmlFor="date">
+                  Date
+                </label>
+                <input name="date" type="date" onChange={handleChange} />
+              </div>
+            </div>
+
+            <div className="category-li">
+              <label htmlFor="description">Time</label>
+              <input name="description" type="text" placeholder="Insert time here" onChange={handleChange} />
+            </div>
+
+            <div className="thebeach">
+              <label htmlFor="selectbeach">Location</label>
+              <input name="selectbeach" type="text" placeholder="Insert location here" onChange={handleChange} />
+            </div>
+
+            <div className="time-">
+              <div className="dateandtime">
                 <label htmlFor="beachId">Beach</label>
                 { isLoading 
                 ? <div style={{color: 'blue', fontSize: '20px'}} className='ui message'>
@@ -130,7 +149,7 @@ const CreateEvent = () => {
                         Something went wrong while fetching the beaches!
                       </div>
                     : <select className="starts" name="beachId" defaultValue="-1" onChange={handleChange} >
-                          <option value="-1" key="-1">Select a beach...</option>
+                          <option value="-1" key="-1">Select a beach</option>
                           { beaches && 
                           beaches.map((beach, index) => (
                               <option value={beach.bid} key={index}>{beach.name}</option>
@@ -139,20 +158,6 @@ const CreateEvent = () => {
                     </select>
               }
               </div>
-            </div>
-
-            <div className="starts-">
-              <div className="startswrap">
-                <label className="starts" htmlFor="date">
-                  Date
-                </label>
-                <input name="date" type="date" onChange={handleChange} />
-              </div>
-            </div>
-
-            <div className="category-li">
-              <label htmlFor="description">Description</label>
-              <input name="description" type="text" onChange={handleChange} />
             </div>
 
             <button className="button" onClick={(e) => handleSubmit(e)}>Create Event</button>
