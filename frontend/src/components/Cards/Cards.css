@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em;
+  justify-content: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.mainFigure {
+  border: none;
+  margin: 1em;
+  width: 433px;
+  height: 581px;
+  box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.3);
+  border-radius: 14px;
+}
+.mainFigure img {
+  width: 100%;
+  height: 240px;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 14px 14px 0 0;
+}
+.mainFigure .mainFigcap {
+  background-color: white;
+  border-radius: 14px;
+}
+.mainFigure .mainFigcap p {
+  font-size: 1em;
+  max-height: 14ch;
+  text-overflow: ellipsis;
+  overflow: scroll;
+  font-family: "Poppins", sans-serif;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.mainFigure .mainFigcap .hGroups {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2em 1em 1em 2em;
+}
+.mainFigure .mainFigcap .hGroups a {
+  text-decoration: none;
+  color: #000;
+}
+.mainFigure .mainFigcap .hGroups h3 {
+  font-size: 2em;
+  font-family: "Vollkorn", serif;
+  color: #006369;
+  text-decoration: underline;
+  text-decoration-color: #006369;
+  text-underline-offset: 12px;
+}
+.mainFigure .mainFigcap .hGroups h4 {
+  font-size: 1em;
+  text-align: right;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .container .mainFigure {
+    box-sizing: border-box;
+    width: 27%;
+  }
+}
+.arrow {
+  color: #006369;
+}/*# sourceMappingURL=Cards.css.map */

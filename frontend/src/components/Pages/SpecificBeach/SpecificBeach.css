@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+.beachSectionOne {
+  margin: 0;
+}
+
+.specificbeachText {
+  position: relative;
+  text-align: center;
+  margin: 2.5em;
+}
+.specificbeachText .beachIMG {
+  max-width: 100%;
+  opacity: 60%;
+}
+.specificbeachText .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.specificbeachText .centered h2 {
+  text-align: center;
+  font-family: "Sriracha", "sans-serif";
+  font-size: 2em;
+}
+
+.info {
+  margin: 2.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.info h4 {
+  font-family: "Sriracha", "sans-serif";
+  text-align: right;
+  font-size: 1.2em;
+}
+.info h3 {
+  font-family: "Sriracha", "sans-serif";
+  font-size: 1.2em;
+}
+
+.spanP p {
+  margin: 2.5em;
+  font-weight: bold;
+}
+
+.googlemaps {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.reviews {
+  margin: 2.5em;
+}
+.reviews h4 {
+  font-size: 1.3em;
+  font-family: "Sriracha", "sans-serif";
+  border-bottom: 1px solid #000;
+}
+.reviews p {
+  padding: 1em 0;
+  border-bottom: 1px solid #000;
+}/*# sourceMappingURL=SpecificBeach.css.map */

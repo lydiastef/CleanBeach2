@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+.beachfun {
+  width: 100%;
+  opacity: 80%;
+  z-index: -1;
+}
+
+.articleOne {
+  margin: 4em;
+}
+.articleOne h2 {
+  font-family: "Sriracha", "sans-serif";
+  margin-bottom: 1em;
+  text-align: center;
+  margin-top: -1em;
+}
+
+.eventBtn {
+  display: flex;
+  justify-content: center;
+}
+.eventBtn button {
+  background-color: #0F686E;
+  border: none;
+  color: white;
+  padding: 0.7em 1em;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.eventSection {
+  margin: 2.5em;
+  background-color: #7FD4D1;
+  height: 20vh;
+}
+.eventSection span {
+  display: flex;
+  justify-content: space-between;
+}
+.eventSection p {
+  margin: 0.5em;
+}
+
+@media screen and (min-width: 700px) {
+  .articleOne {
+    margin-left: 12em;
+    margin-right: 12em;
+  }
+  .button {
+    margin-bottom: 3em;
+  }
+}/*# sourceMappingURL=Events.css.map */

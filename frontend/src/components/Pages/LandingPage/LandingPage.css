@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.beachimg {
+  max-width: 100%;
+  opacity: 50%;
+  z-index: -1;
+  position: relative;
+}
+
+.WelcomeText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+.WelcomeText article {
+  position: absolute;
+  top: 42%;
+}
+.WelcomeText article h1 {
+  font-size: 96px;
+  text-align: center;
+  font-family: "Vollkorn", serif;
+  color: #006369;
+}
+.WelcomeText article .TextSpan {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5em;
+}
+.WelcomeText article .TextSpan p {
+  font-size: 1.5em;
+  width: 90%;
+  text-align: center;
+  font-weight: bold;
+}
+
+svg {
+  display: block;
+}
+
+@media screen and (min-width: 700px) {
+  .semifooter {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.beaches-header {
+  margin-top: 3em;
+  font-size: 48px;
+  text-align: center;
+  font-family: "Vollkorn", serif;
+  color: #006369;
+}/*# sourceMappingURL=LandingPage.css.map */
