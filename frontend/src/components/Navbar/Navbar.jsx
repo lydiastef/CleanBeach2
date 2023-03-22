@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import './Navbar.scss';
-import Logo from '../../images/LogoMakr-5iM0ns.png';
+import Logo from '../../Icons/Logo.svg';
 import { BiLogOut } from 'react-icons/bi';
 
 
@@ -19,7 +19,7 @@ function Navbar() {
         button = <li><NavLink to="/profile">Profile</NavLink></li>
     )
     else{
-        button = <li><NavLink to="/signup">Sign Up</NavLink></li>
+        button = <li><NavLink to="/signup">Profile</NavLink></li>
     }
 
     if(localStorage.getItem("user") != undefined)(
@@ -36,7 +36,6 @@ function Navbar() {
             </NavLink>
             <nav>
                 <ul>
-                    <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/events">Events</NavLink></li>
                     {button}
                     {logout}
