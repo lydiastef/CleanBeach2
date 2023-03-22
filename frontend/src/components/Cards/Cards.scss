@@ -1,43 +1,60 @@
 @use "../Styled/Theme.scss" as c;
 
-a{
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em;
+  justify-content: 2em;
+}
+
+a {
   text-decoration: none;
   color: c.$Black;
 }
 
   .mainFigure {
-    border: solid black;
+    border: none;
+    margin: 1em;
+    width: 433px;
+    height: 581px;
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.3);
+    border-radius: 14px;
     
     img {
-      border-top: 2px solid;
-      border-right: 2px solid;
-      border-left: 2px solid;
-      max-width: 100%;
+      width: 100%;
+      height: 240px;
       display: block;
       box-sizing: border-box;
+      border-radius: 14px 14px 0 0;
     }
     .mainFigcap {
-      border: 2px solid c.$Black;
-      background-color: c.$Cyan;
+      background-color: white;
+      border-radius: 14px;
       
       p {
-        margin: 0 0.5em;
         font-size: 1em;
         max-height: 14ch;
         text-overflow: ellipsis;
-        overflow: hidden;
+        overflow: scroll;
+        font-family: c.$Poppins;
+        padding-left: 2em;
+        padding-right: 2em;
       }
       .hGroups {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 0 0.5em;
+        margin: 2em 1em 1em 2em;
         a{
           text-decoration: none;
           color: c.$Black;
         }
         h3 {
-          font-size: 1em;
-          font-family: c.$Sriracha;
+          font-size: 2em;
+          font-family: c.$Vollkornreg;
+          color: c.$DarkBlue;
+          text-decoration: underline;
+          text-decoration-color: c.$DarkBlue;
+          text-underline-offset: 12px;
         }
         h4 {
           font-size: 1em;
@@ -60,4 +77,8 @@ a{
     width: 27%;
   }
 }
+}
+
+.arrow {
+  color: c.$DarkBlue;
 }
