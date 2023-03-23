@@ -8,13 +8,11 @@ const AboutUs = () => {
         <article>
           <h2>ABOUT US</h2>
           <p>
-            We are a group of students from Gran Canaria, Denmark & Iceland who
-            want to make a difference here in Gran Canaria. <br />
-            We want to keep the beaches clean, and we will do that through this
-            app, but also by putting up signs etc.
+          We are a group of students from Spain, Denmark & Iceland, who want to make a difference. 
+          Our goal is to keep the beaches clean, by motivating the public through our website.
           </p>
           <NavLink to="aboutus">
-            <button className="aboutbtn">ABOUT US</button>
+            <button className="aboutbtn">READ MORE</button>
           </NavLink>
         </article>
       </div>
@@ -29,8 +27,9 @@ const VolunteerText = () => {
         <article>
           <h2>MAKE A DIFFERENCE</h2>
           <p>
-          We are a group of students from Spain, Denmark & Iceland, who want to make a difference. <br />
-          Our goal is to keep the beaches clean, through our website.
+          Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate interdum, ac aliquet odio mattis. 
+          Class aptent ad litora torquent per conubia nostra, per inceptos himenaeos.
+
           </p>
           <NavLink to="signup">
             <button className="volunteerbtn">VOLUNTEER NOW</button>
