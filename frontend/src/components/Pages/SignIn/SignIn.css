@@ -12,8 +12,8 @@ h2 {
 }
 
 .background {
-  background-image: url("https://github.com/lydiastef/CleanBeach2/blob/main/frontend/src/images/Rectangle%2037.png?raw=true");
-  background-size: contain;
+  background-image: url("https://raw.githubusercontent.com/lydiastef/CleanBeach2/main/frontend/src/images/Rectangle%2037.png");
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
   margin: -2em;
@@ -23,12 +23,14 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 1000px;
 }
 
 .form1 {
-  margin: 2em 0 0 2em;
+  margin: 1em 0 0 1em;
   padding: 2em 0 2em 4em;
   justify-self: center;
+  z-index: 2;
   /*     background-image: url('https://github.com/lydiastef/CleanBeach2/blob/main/frontend/src/images/Rectangle%2037.png?raw=true');
     background-size: cover;
     opacity: 0.6;
