@@ -1,5 +1,3 @@
-import { useState } from "react";
-import Dropdown from '../../Dropdown/Dropdown';
 import Cards from "../../Cards/Cards";
 import Image from '../../../images/pexels-asad-photo-maldives-1450353.jpg';
 import { AboutUs, VolunteerText } from "../../VolunteerText/VolunteerText";

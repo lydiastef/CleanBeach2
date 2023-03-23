@@ -2,7 +2,6 @@ import "./Cards.scss";
 import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { AiFillCaretDown } from "react-icons/ai";
 import beachService from "../../services/beachService";
 import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
