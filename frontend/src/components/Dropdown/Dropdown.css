@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .dropdown {
-  width: 150px;
+  display: flex;
+  width: 200px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -12,9 +15,9 @@
 
 .dropdown .dropdown-btn {
   padding: 10px 20px;
-  background: #0F686E;
+  background: #dedede;
   box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.06);
-  color: white;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,4 +44,8 @@
 
 .dropdown .dropdown-content .dropdown-item:hover {
   background: #f4f4f4;
+}
+
+.sliders {
+  padding: 5px;
 }/*# sourceMappingURL=Dropdown.css.map */
