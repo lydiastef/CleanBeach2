@@ -2,6 +2,8 @@ import "./SignIn.scss";
 import { useState, useEffect } from "react";
 import userService from "../../../services/userService";
 import { AboutUs, VolunteerText } from "../../VolunteerText/VolunteerText";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 const SignInPage = () => {
   const initialValues = { email: "", password: "" };
@@ -62,7 +64,7 @@ const SignInPage = () => {
           {/* SIGN IN */}
           <div className="signin">
             <h1 className="h1ss">Welcome Back</h1>
-            <label htmlFor="email">Email/Username</label>
+            <label htmlFor="email"></label>
             <input
               name="email"
               type="email"
@@ -72,7 +74,7 @@ const SignInPage = () => {
             />
             <p style={{ color: "red" }}>{formErrors.email}</p>
 
-            <label htmlFor="password">Password</label>
+            <label htmlFor="password"></label>
             <input
               name="password"
               type="password"
@@ -85,7 +87,7 @@ const SignInPage = () => {
               Don't have an account? <a href="/register">Register</a>
             </div>
 
-            <button>Log in</button>
+            <button>LOGIN</button>
           </div>
         </div>
       </form>

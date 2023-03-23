@@ -29,8 +29,8 @@ const VolunteerText = () => {
         <article>
           <h2>MAKE A DIFFERENCE</h2>
           <p>
-            Sign up today and become a volunteer to help clean the beaches and
-            help our beautiful planet!
+          We are a group of students from Spain, Denmark & Iceland, who want to make a difference. <br />
+          Our goal is to keep the beaches clean, through our website.
           </p>
           <NavLink to="signup">
             <button className="volunteerbtn">VOLUNTEER NOW</button>

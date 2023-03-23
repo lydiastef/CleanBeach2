@@ -1,22 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 .AboutUs, .Volunteer {
   display: flex;
   justify-content: center;
   text-align: center;
   background-color: #7FD4D1;
+  width: 80%;
+  padding: 4.2em;
+  padding-bottom: 2em;
+  padding-top: 0.5em;
 }
 .AboutUs h2, .Volunteer h2 {
-  font-family: "Sriracha", "sans-serif";
+  font-family: "Vollkorn", serif;
   font-size: 1.7em;
+  margin-bottom: 2em;
 }
 .AboutUs p, .Volunteer p {
   margin: 0 1em;
   font-size: 1.2em;
+  margin-bottom: 2em;
+  letter-spacing: 0.02em;
+  line-height: 1.5em;
+  font-family: "Poppins", sans-serif;
 }
 
-.AboutUs {
-  background-color: #7FD4D1;
+.AboutUs article {
+  display: block;
+  margin-top: 5em;
 }
 .AboutUs article p {
   margin-top: 0.5em;
@@ -27,19 +48,52 @@
   background-color: #7FD4D1;
   margin-top: 5em;
   height: 35vh;
+  margin-bottom: 12em;
 }
 .Volunteer article p {
   margin-top: 0.5em;
 }
-.Volunteer article button {
+.Volunteer article .volunteerbtn {
   background-color: #FFF;
   border: none;
-  color: #000;
+  color: #006369;
   padding: 1em 1em;
   text-align: center;
   text-decoration: none;
   font-size: 1em;
   font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.02em;
   margin-top: 1.7em;
   box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.aboutbtn {
+  background-color: #006369;
+  border: none;
+  color: #FFF;
+  padding: 1em 1em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.02em;
+  margin-top: 1.7em;
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 700px) {
+  .AboutUs, .Volunteer {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .AboutUs, .Volunteer {
+    padding: 5em;
+  }
 }/*# sourceMappingURL=VolunteerText.css.map */

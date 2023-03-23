@@ -12,18 +12,18 @@ h2 {
 }
 
 .background {
-  background-image: url("https://raw.githubusercontent.com/lydiastef/CleanBeach2/main/frontend/src/images/Rectangle%2037.png");
+  background-image: url("https://github.com/lydiastef/CleanBeach2/blob/main/frontend/src/images/Signin_background.png?raw=true");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
-  margin: -2em;
+  margin: -1em;
 }
 
 .containerss {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 1000px;
+  height: 800px;
 }
 
 .form1 {
@@ -42,7 +42,7 @@ h2 {
   text-align: center;
   margin-bottom: 1.2em;
   font-size: 64px;
-  font-weight: 400;
+  font-weight: 300;
   color: #006369;
 }
 .form1 label {
@@ -53,10 +53,9 @@ h2 {
 }
 .form1 input {
   padding: 4px;
-  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
-  border: 1.5px solid #000;
-  width: 50%;
-  height: 40px;
+  box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.3);
+  width: 664px;
+  height: 64px;
   border-radius: 5px;
 }
 .form1 .signin {
