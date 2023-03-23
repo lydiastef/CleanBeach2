@@ -21,7 +21,7 @@
 .form {
   margin: 1em 0 0 1em;
   padding: 2em 0 2em 4em;
-  justify-self: center;
+  justify-content: center;
   align-items: center;
   z-index: 2;
   /*   .cleaning1 {
