@@ -7,7 +7,7 @@ function Dropdown() {
     return(
         <div className='dropdown'>
             <div className='dropdown-btn' onClick={(e) => setIsActive(!isActive)}>
-                Filter <AiFillCaretDown style={{ color: 'white' }}/>
+                Cleanliness <AiFillCaretDown style={{ color: 'black' }}/>
             </div>
             {isActive && (
             <div className='dropdown-content'>

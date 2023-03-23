@@ -6,7 +6,8 @@
   display: flex;
   flex-wrap: wrap;
   margin: 2em;
-  justify-content: 2em;
+  justify-content: center;
+  padding: 0;
 }
 
 a {
@@ -21,6 +22,7 @@ a {
   height: 581px;
   box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.3);
   border-radius: 14px;
+  position: relative;
 }
 .mainFigure img {
   width: 100%;
@@ -64,6 +66,17 @@ a {
   text-align: right;
 }
 
+.arrow {
+  display: flex;
+  color: #006369;
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  left: 350px;
+  bottom: 15px;
+  padding: 5px;
+}
+
 @media screen and (min-width: 700px) {
   .container {
     display: flex;
@@ -76,7 +89,4 @@ a {
     box-sizing: border-box;
     width: 27%;
   }
-}
-.arrow {
-  color: #006369;
 }/*# sourceMappingURL=Cards.css.map */
