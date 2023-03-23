@@ -8,12 +8,13 @@
 
 .sectionContainer{
     margin-bottom: 4em;
-    border: solid rgba(0, 0, 0, 0.107);
-    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.3);
     height: 30vh;
     width: 90%;
-    border-radius: 5px;
+    border-radius: 14px;
     padding: 1em;
+    
     span{
         display: flex;
         justify-content: space-between;
@@ -26,6 +27,8 @@
 
     p{
         margin: 0.5em;
+        font-size: 14px;
+        font-family: c.$Poppins;
     }
     
 }
@@ -41,12 +44,12 @@
 
 .sectionContainer{
     margin-bottom: 4em;
-    border: solid rgba(0, 0, 0, 0.107);
-    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.3);
     height: 30vh;
     width: 40%;
-    border-radius: 5px;
+    border-radius: 14px;
     padding: 1em;
+
     span{
         display: flex;
         justify-content: space-between;
@@ -62,4 +65,17 @@
     }
     
 }
+}
+
+@media screen and (min-width: 1000px) {
+
+.sectionContainer{
+    margin-bottom: 4em;
+    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.3);
+    height: 30vh;
+    width: 27%;
+    border-radius: 14px;
+    padding: 1em;
+}
+
 }

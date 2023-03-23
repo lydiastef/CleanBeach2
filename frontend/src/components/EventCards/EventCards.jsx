@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios"
 import './EventCards.scss';
+import CleaningImage from '../../images/beachtrash.jpg'
 
 const EventCards = () => {
     const [data, setData] = useState([]);
@@ -23,15 +24,15 @@ const EventCards = () => {
             {data &&
             data.map((event, key) => {
                 return (
-                <section className="sectionContainer" key={key}>
-                <span className="namedate">
-                    <p>{event.name}</p>
-                    <p>{event.date}</p>
-                </span>
-                <p>
-                    {event.description}
-                </p>
-                </section>
+                        <section className="sectionContainer" key={key}>
+                        <span className="namedate">
+                        <p>{event.name}</p>
+                        <p>{event.date}</p>
+                        </span>
+                        <p>
+                        {event.description}
+                    </p>
+                    </section>
                 );
             })}
         </div>

@@ -9,7 +9,7 @@ const EventsPage = () => {
     <div className="header">
       <div className="eventimgh2">
         <img className="beachfun" src={beachfun} alt="peopleonbeach" />
-        <h2 className="h2events">Events</h2>
+        <h1 className="h1events">Events</h1>
         <p className="eventtext">A time and place is set were we come together to help make difference. 
           Events are made to spread awareness about the environmental effects littering has.</p>
       </div>
