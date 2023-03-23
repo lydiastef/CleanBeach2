@@ -7,6 +7,7 @@ import beachService from "../../services/beachService";
 import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faSliders } from "@fortawesome/free-solid-svg-icons";
 
 const arrow = <FontAwesomeIcon icon={faCircleArrowRight} fade />;
 
@@ -39,7 +40,7 @@ const Cards = () => {
     <>
       <div className="dropdown">
         <div className="dropdown-btn" onClick={(e) => setIsActive(!isActive)}>
-          Sort by <AiFillCaretDown style={{ color: "white" }} />
+          Cleanliness <FontAwesomeIcon icon={faSliders} className="sliders"></FontAwesomeIcon>
         </div>
         {isActive && (
           <div className="dropdown-content">
@@ -84,9 +85,7 @@ const Cards = () => {
                     </hgroup>
                     <p>{beach.description}</p>
                   </figcaption>
-                  <div className="arrow">
-                    <faCircleArrowRight />
-                  </div>
+                    <FontAwesomeIcon icon={faCircleArrowRight} className="arrow"></FontAwesomeIcon>
                 </figure>
               </NavLink>
             );
