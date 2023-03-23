@@ -1,29 +1,70 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
-.form1 {
-  margin: 2em 0 0 2em;
-  padding: 2em 0 2em 4em;
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-.form1 .h1ss, .form1 .h1sss {
-  font-family: "Sriracha", "sans-serif";
+
+.background {
+  background-image: url("https://github.com/lydiastef/CleanBeach2/blob/main/frontend/src/images/Signin_background.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: -1em;
+}
+
+.containerss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+.form1 {
+  margin: 1em 0 0 1em;
+  padding: 2em 0 2em 4em;
+  justify-self: center;
+  z-index: 2;
+  /*     background-image: url('https://github.com/lydiastef/CleanBeach2/blob/main/frontend/src/images/Rectangle%2037.png?raw=true');
+    background-size: cover;
+    opacity: 0.6;
+    z-index: -3; */
+}
+.form1 .h1ss,
+.form1 .h1sss {
+  font-family: "Vollkorn", serif;
   text-align: center;
   margin-bottom: 1.2em;
+  font-size: 64px;
+  font-weight: 300;
+  color: #006369;
 }
 .form1 label {
-  display: block;
+  display: flex;
   margin: 1em 0 0 0;
   font-size: 1.2em;
+  font-family: "Poppins", sans-serif;
 }
 .form1 input {
   padding: 4px;
-  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
-  border: 1.5px solid #000;
-  width: 90%;
+  box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.3);
+  width: 664px;
+  height: 64px;
   border-radius: 5px;
 }
 .form1 .signin {
+  display: flex;
+  flex-direction: column;
   width: 90%;
   margin-bottom: 4.3em;
+  justify-content: center;
+  align-items: center;
 }
 .form1 .notAMember {
   margin-top: 3em;
@@ -36,14 +77,14 @@
   width: 81%;
 }
 .form1 button {
-  background-color: #0F686E;
+  background-color: #006369;
   border: none;
   color: white;
   padding: 1em 0;
-  width: 90%;
+  width: 20%;
   text-align: center;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1em;
   margin-top: 1.7em;
   box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;

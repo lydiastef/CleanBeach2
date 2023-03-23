@@ -1,7 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 * {
-  font-family: "IBM Plex Sans", "sans-serif";
+  font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -16,9 +27,13 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  padding: 0 1rem;
-  background-color: #0F686E;
+  padding: 0;
+  background-color: #006369;
   color: #FFF;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
 }
 header img {
   max-width: 100%;
@@ -42,11 +57,10 @@ header nav ul li .logout {
   width: 5em;
 }
 
-.beachimg {
-  width: 100%;
-  height: 500px;
-}
-
+/* .beachimg {
+    width: 100%;
+    height: 500px;
+}  */
 @media screen and (min-width: 700px) {
   header {
     padding: 0 3rem;

@@ -5,9 +5,10 @@
     display: flex;
     width: 200px;
     user-select: none;
-    margin: 100px 0 30px 230px;
+    margin-left: 1250px;
     position: relative;
     font-size: 1.3em;
+    z-index: 1;
 }
 
 .dropdown .dropdown-btn {
