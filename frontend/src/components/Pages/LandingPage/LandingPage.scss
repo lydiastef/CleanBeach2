@@ -12,22 +12,27 @@
   align-items: center;
   justify-content: center;
   color: c.$Black;
+  font-size: 48px;
+
   article {
     position: absolute;
-    top: 42%;
+    top: 40%;
     h1 {
-      font-size: 96px;
+      font-size: 48px;
+      font-weight: 400;
       text-align: center;
       font-family: c.$Vollkornreg;
       color: c.$DarkBlue;
+      margin: .3em;
     }
     .TextSpan {
       display: flex;
       justify-content: center;
       margin-top: 1.5em;
       p {
-        font-size: 1.5em;
-        width: 90%;
+        font-size: 16px;
+        width: 55%;
+        line-height: 30px;
         text-align: center;
         font-weight: bold;
       }
@@ -39,12 +44,11 @@ svg {
   display: block;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .semifooter {
     display: flex;
     justify-content: space-between;
   }
-}
 
 .beaches-header {
   margin-top: 3em;
@@ -53,3 +57,44 @@ svg {
   font-family: c.$Vollkornreg;
   color: c.$DarkBlue;
 }
+
+.beachimg {
+  max-width: 100%;
+  opacity: 50%;
+  z-index: -1;
+  position: relative;
+}
+
+.WelcomeText {
+  article {
+    h1 {
+      font-size: 64px;
+    }
+    .TextSpan {
+      p {
+        font-size: 20px;
+        width: 65%;
+        line-height: 30px;
+      }
+    }
+  }
+}
+}
+
+@media screen and (min-width: 1100px) {
+  .WelcomeText {
+    article {
+      h1 {
+        font-size: 96px;
+      }
+      .TextSpan {
+        p {
+          font-size: 24px;
+          width: 55%;
+          line-height: 35px;
+        }
+      }
+    }
+  }
+}
+

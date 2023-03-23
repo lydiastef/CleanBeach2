@@ -2,7 +2,7 @@
 
 .beachfun{
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     opacity: 40%;
     z-index: -1;
     position: relative;
@@ -13,10 +13,9 @@
     justify-content: center;
     font-family: c.$Vollkornreg;
     color: c.$DarkBlue;
-    font-size: 48px;
+    font-size: 36px;
     text-align: center;
-    margin-top: -5em;
-    margin-bottom: .2em;
+    margin-top: -5.3em;
 }
 
 .eventtext {
@@ -24,7 +23,8 @@
     font-size: 12px;
     margin-left: 5em;
     margin-right: 5em;
-    margin-bottom: .3em;
+    margin-bottom: -1em;
+    text-align: center;
 }
 
 .h2upcoming {
@@ -45,10 +45,11 @@
     button{
         background-color: c.$Cyan; 
         font-family: c.$Poppins;
+        text-transform: uppercase;
         border: none;
         color: c.$Black;
         padding: 1em;
-        width: 20vh;
+        width: 25vh;
         text-align: center;
         text-decoration: none;
         font-size: 12px;
@@ -74,14 +75,15 @@
     }
 
     .h1events{
-        font-size: 64px;
-        margin-bottom: .4em;
-        margin-top: -5em;
+        font-size: 48px;
+        font-weight: 400;
+        margin-bottom: .2em;
+        margin-top: -5.1em;
     }
 
     .eventtext {
         font-size: 16px;
-        margin-bottom: 2em;
+        margin-bottom: .1em;
         margin-left: 8em;
         margin-right: 8em;
     }
@@ -106,27 +108,27 @@
     }
 
     .h1events{
-        font-size: 96px;
-        margin-bottom: .2em;
+        font-size: 72px;
+        margin-bottom: .1em;
         margin-top: -5.2em;
     }
 
     .h2upcoming {
         font-size: 48px;
-        margin-top: 4em;
-        margin-bottom: 1.5em;
+        margin-top: 2em;
+        margin-bottom: .7em;
     }
 
     .eventtext {
         font-size: 20px;
-        margin-bottom: 5em;
-        margin-left: 12em;
-        margin-right: 12em;
+        margin-bottom: .2em;
+        margin-left: 8em;
+        margin-right: 8em;
     }
 
     .eventBtn{
     button{
-        width: 25vh;
+        width: 30vh;
         font-size: 16px;
         margin-top: 2em;
         margin-bottom: 1em;
