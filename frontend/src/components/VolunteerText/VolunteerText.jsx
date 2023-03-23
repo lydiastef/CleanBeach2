@@ -29,6 +29,7 @@ const VolunteerText = () => {
           <p>
           Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate interdum, ac aliquet odio mattis. 
           Class aptent ad litora torquent per conubia nostra, per inceptos himenaeos.
+
           </p>
           <NavLink to="signup">
             <button className="volunteerbtn">VOLUNTEER NOW</button>

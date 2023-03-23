@@ -1,26 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Sriracha&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 footer {
   height: 100px;
   width: 100%;
-  background-color: #0F686E;
+  background-color: #006369;
+  position: fixed;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
 }
 footer .footercontainer {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-footer .footercontainer p {
-  color: #FFF;
-  font-weight: 500;
+footer .goals {
+  width: 300px;
+  margin-top: 1em;
 }
-footer .footercontainer .goals {
-  width: 200px;
+footer .icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
 }
-footer .footercontainer .icons {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-footer .footercontainer .icons svg {
-  fill: black;
+footer a {
+  margin: 1em;
 }/*# sourceMappingURL=Footer.css.map */

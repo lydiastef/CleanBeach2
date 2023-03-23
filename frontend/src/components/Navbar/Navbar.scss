@@ -1,7 +1,7 @@
 @use '../Styled/Theme.scss' as c;
 
 * {
-    font-family: c.$IBM-Font;
+    font-family: c.$Poppins;
     padding: 0;
     margin: 0;
 }
@@ -16,9 +16,13 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    padding: 0 1rem;
+    padding: 0;
     background-color: c.$DarkBlue;
     color: c.$White;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
     img{
         max-width: 100%;
     }
@@ -47,10 +51,10 @@ header {
     }
 }
 
-.beachimg {
+/* .beachimg {
     width: 100%;
     height: 500px;
-} 
+}  */
 
 @media screen and (min-width: 700px) {
     header {
