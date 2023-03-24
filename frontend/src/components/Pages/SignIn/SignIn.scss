@@ -1,11 +1,11 @@
 @use "../../Styled/Theme.scss" as c;
 
 .background {
-    background-image: url('https://github.com/lydiastef/CleanBeach2/blob/main/frontend/src/images/Signin_background.png?raw=true');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 0;
-    margin: -1em;
+  background-image: url("https://github.com/lydiastef/CleanBeach2/blob/main/frontend/src/images/Signin_background.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: -1em;
 }
 
 .containerss {
@@ -20,10 +20,6 @@
   padding: 2em 0 2em 4em;
   justify-self: center;
   z-index: 2;
-  /*     background-image: url('https://github.com/lydiastef/CleanBeach2/blob/main/frontend/src/images/Rectangle%2037.png?raw=true');
-    background-size: cover;
-    opacity: 0.6;
-    z-index: -3; */
 
   .h1ss,
   .h1sss {
@@ -43,7 +39,7 @@
   }
   input {
     padding: 4px;
-    box-shadow: 3px 3px 13px -2px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 13px -2px rgba(0, 0, 0, 0.3);
     width: 664px;
     height: 64px;
     border-radius: 5px;
