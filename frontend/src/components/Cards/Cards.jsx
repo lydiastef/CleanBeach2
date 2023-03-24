@@ -1,4 +1,5 @@
 import "./Cards.scss";
+import "../Dropdown/Dropdown.scss"
 import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";

@@ -13,12 +13,10 @@
 
 .dropdown .dropdown-btn {
     padding: 10px 20px;
-    background: #dedede;
+    background: #dcdcdc;
     box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.06);
     color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: block;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -29,7 +27,7 @@
     left: 0;
     background: white;
     box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.06);
-    width: 100%;
+    width: 97%;
     border-radius: 5px;
 }
 
